@@ -21,7 +21,7 @@ import com.example.api_crud.servicios.CaballoServicioImpl;
 
 
 @RestController
-@RequestMapping("/api/v1/caballos")
+@RequestMapping("/api/v1/caballos") 
 public class CaballoControlador {
 	
 	@Autowired
