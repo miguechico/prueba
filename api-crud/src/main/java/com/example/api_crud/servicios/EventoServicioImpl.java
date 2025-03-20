@@ -11,7 +11,7 @@ import com.example.api_crud.repositorios.EventoRepositorio;
 @Service
 public class EventoServicioImpl implements IEventoServicio{
 
-	@Autowired
+	@Autowired 
 	EventoRepositorio eventorepositorio;
 	
 	@Override
